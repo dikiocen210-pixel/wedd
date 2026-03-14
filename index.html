@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Nama Mempelai</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loading-content">
+            <div class="loading-ring"></div>
+            <p>Memuat Undangan...</p>
+        </div>
+    </div>
+
+    <!-- Music Button -->
+    <div class="music-control" id="musicControl">
+        <button id="musicBtn" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+                        <audio id="weddingMusic" loop muted>
+            <source src="Nothing's Gonna Change My Love For You _ Shania Yan Cover (1).mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="invitation-text slide-up">
+                <p>Undangan Pernikahan</p>
+            </div>
+            <h1 class="couple-names slide-up">
+                <span class="groom-name">Fulan</span>
+                <span class="ampersand">&</span>
+                <span class="bride-name">Fulanah</span>
+            </h1>
+            <p class="wedding-date slide-up">Minggu, 15 Januari 2026</p>
+            <a href="#details" class="btn-open slide-up">
+                <span>Buka Undangan</span>
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-content slide-element">
+                <i class="fas fa-quote-left"></i>
+                <p>"Dan di antara tanda-tanda (kebesaran)-Nya adalah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antara kamu rasa kasih dan sayang."</p>
+                <span class="verse">QS. Ar-Rum: 21</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Couple Section -->
+    <section class="couple-section" id="couple">
+        <div class="container">
+            <div class="section-title slide-element">
+                <p>Mempelai</p>
+                <h2>Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+            </div>
+            <div class="couple-grid">
+                <div class="couple-card groom slide-element">
+                    <div class="couple-photo">
+                        <img src="IMG_2025-11-24-11-08-50-695.jpg" alt="Mempelai Pria">
+                    </div>
+                    <h3>Fulan bin Ahmad</h3>
+                    <p>Putra dari Bpk. Ahmad & Ibu Siti</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="couple-divider">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="couple-card bride slide-element">
+                    <div class="couple-photo">
+                        <img src="IMG20250923101418.jpg" alt="Mempelai Wanita">
+                    </div>
+                    <h3>Fulanah binti Budi</h3>
+                    <p>Putri dari Bpk. Budi & Ibu Dewi</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="details-section" id="details">
+        <div class="container">
+            <div class="section-title slide-element">
+                <p>Acara</p>
+                <h2>Detail Pernikahan</h2>
+            </div>
+            <div class="details-grid">
+                <div class="detail-card slide-element">
+                    <div class="detail-icon">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h3>Akad Nikah</h3>
+                    <div class="detail-info">
+                        <p><i class="fas fa-calendar"></i> Minggu, 15 Januari 2026</p>
+                        <p><i class="fas fa-clock"></i> Pukul 08.00 - 10.00 WIB</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Masjid Al-Hidayah</p>
+                        <p class="address">Jl. Contoh No. 123, Jakarta Selatan</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0!2d106.8!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Masjid+Al-Hidayah+Jakarta" target="_blank" class="btn-maps">
+                        <i class="fas fa-directions"></i> Buka di Maps
+                    </a>
+                </div>
+                <div class="detail-card slide-element">
+                    <div class="detail-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Resepsi</h3>
+                    <div class="detail-info">
+<p><i class="fas fa-calendar"></i> Minggu, 29 Agustus 2026</p>
+                        <p><i class="fas fa-clock"></i> Pukul 11.00 - 15.00 WIB</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Gedung Pernikahan</p>
+                        <p class="address">Jl. Contoh No. 456, Jakarta Selatan</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0!2d106.8!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Gedung+Pernikahan+Jakarta" target="_blank" class="btn-maps">
+                        <i class="fas fa-directions"></i> Buka di Maps
+                    </a>
+                </div>
+            </div>
+            <div class="countdown-container slide-element">
+                <h3>Hitung Mundur</h3>
+                <div class="countdown" id="countdown">
+                    <div class="count-item">
+                        <span id="days">00</span>
+                        <label>Hari</label>
+                    </div>
+                    <div class="count-item">
+                        <span id="hours">00</span>
+                        <label>Jam</label>
+                    </div>
+                    <div class="count-item">
+                        <span id="minutes">00</span>
+                        <label>Menit</label>
+                    </div>
+                    <div class="count-item">
+                        <span id="seconds">00</span>
+                        <label>Detik</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-title slide-element">
+                <p>Kenangan</p>
+                <h2>Galeri Foto</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item slide-element">
+                    <img src="IMG_2025-11-24-11-08-50-695.jpg" alt="Gallery 1">
+                </div>
+                <div class="gallery-item slide-element">
+                    <img src="IMG20250923101418.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery-item slide-element">
+                    <img src="IMG_2025-11-24-11-08-50-695.jpg" alt="Gallery 3">
+                </div>
+                <div class="gallery-item slide-element">
+                    <img src="IMG20250923101418.jpg" alt="Gallery 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guest Book Section -->
+    <section class="guestbook-section" id="guestbook">
+        <div class="container">
+            <div class="section-title slide-element">
+                <p>Ucapan & Doa</p>
+                <h2>Daftar Tamu Undangan</h2>
+            </div>
+            <div class="guestbook-content">
+                <form class="guest-form slide-element" id="guestForm">
+                    <div class="form-group">
+                        <input type="text" id="guestName" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="attendance" required>
+                            <option value="">Kehadiran</option>
+                            <option value="hadir">Hadir</option>
+                            <option value="tidak-hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment" placeholder="Tulis ucapan dan doa terbaik Anda..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane"></i> Kirim Ucapan
+                    </button>
+                </form>
+                
+                <div class="comments-list" id="commentsList">
+                    <h3>Ucapan Tamu Undangan</h3>
+                    <div id="commentsContainer">
+                        <!-- Comments will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+<div class="footer-content slide-element">
+                <h2>Terima Kasih</h2>
+                <p>Atas kehadiran dan doa restunya kami ucapkan terima kasih.</p>
+                <div class="footer-couple">
+                    <span>Fulan</span> & <span>Fulanah</span>
+                </div>
+                <div class="footer-quote">
+                    <p>"Semoga Allah menghimpun yang terserak dari mereka, dan Allah Mahakuasa atas segala sesuatu."</p>
+                </div>
+                <div class="bank-account">
+                    <h3>Hadiah</h3>
+                    <p>Terima kasih telah melengkapi kebahagiaan kami</p>
+                    <div class="account-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_BCA.svg/200px-Logo_BCA.svg.png" alt="BCA Logo" class="bank-logo">
+                        <div class="account-details">
+                            <p class="bank-name">Bank BCA</p>
+                            <p class="account-number">52545</p>
+                            <p class="account-holder">a.n Fulan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Made with <i class="fas fa-heart"></i> for our special day</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
